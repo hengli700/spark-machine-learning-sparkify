@@ -31,19 +31,19 @@ In addition, due to the amount of data used, we leveraged spark (pySpark), spark
 					# readme file
 	└── visualizations
 		├── base.png   
-					# baseline ML model performance
-    ├── boxplot.png   
-					# boxplot showing column statistics
-    ├── cor1.png   
-					# correlation matrix 1
-    ├── cor2.png   
-					# correlation matrix 2
-    ├── cor3.png   
-					# correlation matrix 3
-    ├── histplot.png   
-					# histplot showing column statistics
-    ├── importance.png   
-          # feature importance ranking from tuned model
+						# baseline ML model performance
+	    ├── boxplot.png   
+						# boxplot showing column statistics
+	    ├── cor1.png   
+						# correlation matrix 1
+	    ├── cor2.png   
+						# correlation matrix 2
+	    ├── cor3.png   
+						# correlation matrix 3
+	    ├── histplot.png   
+						# histplot showing column statistics
+	    ├── importance.png   
+	          # feature importance ranking from tuned model
 ```
 
 ### 4. Summary of results and analyses
