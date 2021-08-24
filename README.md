@@ -70,7 +70,7 @@ In addition, due to the amount of data used, we leveraged spark (pySpark), spark
 
 	 ![correlation matrix 3](visualizations/cor3.png "correlation matrix")
 	 
-* **Machine learing**:
+* **Machine learning**:
   * Baseline performance of machine learning classifiers (Logistic Regression, Decision Tree, Random Forest, and Gradient Boost Tree) with default spark ML settings were compared. RandomForestClassifier performed best on validation set with F-1 score of 0.7761 and accuracy of 0.815, and it was chosen for model refinement.
 
     ![baseline ML performance](visualizations/base.png "baseline performance")
