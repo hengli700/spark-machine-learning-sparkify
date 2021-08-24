@@ -69,7 +69,8 @@ In addition, due to the amount of data used, we leveraged spark (pySpark), spark
   * Numeric features related to customer tenure, user actions with streaming services, such as thumbs-down, receiving ads, checking home/about pages. In order to reduce multicollinearity, columns are either omitted or combined and normalized with respect to total sessions for each user.
 
 	 ![correlation matrix 3](visualizations/cor3.png "correlation matrix")
-
+	 
+* **Machine learing**:
   * Baseline performance of machine learning classifiers (Logistic Regression, Decision Tree, Random Forest, and Gradient Boost Tree) with default spark ML settings were compared. RandomForestClassifier performed best on validation set with F-1 score of 0.7761 and accuracy of 0.815, and it was chosen for model refinement.
 
     ![baseline ML performance](visualizations/base.png "baseline performance")
